@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main-card{
+    width: 400px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+}
+
+/* Imagen de perfil */
+.div-image{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    border-radius: 100px;
+}
+
+/* Nombre y location */
+.div-name-location-position{
+    text-align: center;
+}
+
+.name{
+    color: hsl(0, 0%, 100%);
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+}
+
+.position{
+    color: #ccc;
+}
+
+/* Mini containers */
+.mini-container{
+    display: block;
+    width: auto;
+    margin: 30px;
+    padding: 2px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.mini-container:hover{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}

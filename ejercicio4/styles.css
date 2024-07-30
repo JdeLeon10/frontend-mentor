@@ -1,0 +1,16 @@
+body{
+    background-color: hsl(275, 100%, 97%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* main card */
+#main-card{
+    width: 500px;
+    height: 500px;   
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}

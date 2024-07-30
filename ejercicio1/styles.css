@@ -1,0 +1,87 @@
+body{
+    margin: 20px auto;
+    background-color: hsl(30, 54%, 90%);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card container */
+#card-container{
+    width: 500px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+/* Image styles */
+.div-image{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    border-radius: 20px;
+}
+
+/* header */
+.div-header , .div-ingredients , .div-intstructions, .div-nutrition{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Preparation time */
+.div-preparation-time{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 2px 20px;
+    border-radius: 20px;
+
+}
+
+.preparation-time-color{
+    color: hsl(332, 51%, 32%);
+}
+
+/* Ingredients */
+.div-intstructions{
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+
+.color{
+    color: hsl(14, 45%, 36%);
+}
+
+table{
+    width: 100%;
+}
+
+tbody{
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+tr{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    border-bottom: solid 1px #ccc;
+}
+
+tr:last-child{
+    border-bottom: none;
+}
+
+td{
+    width: 50%;
+}
+
+.principal-td{
+    padding-left: 16px;
+}
